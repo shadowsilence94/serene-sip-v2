@@ -9,9 +9,9 @@
   </head>
   <body>
     <header id="header">
-      <h1>Welcome to Serene Sips- Edited</h1>
+      <h1>Welcome to Serene Sips</h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
-      <a href="#our-menu">Explore all our menu</a>
+      <a href="#our-menu">Explore our menu</a>
     </header>
 
     <!-- nav section  -->
@@ -32,8 +32,8 @@
       <div class="menu">
         <h2>Coffee Selections</h2>
         <div class="card">
-          <img src="image/americano.jpeg" alt="" />
-          <h3>Americano</h3>
+          <img src="image/americano.jpeg" alt="" class="card-img-top" />
+          <h3 class="card-title">Americano</h3>
           <p>
             - Strong and black coffee. <br />
             Perfect for the bold coffee enthusiast. <br />
@@ -42,8 +42,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/americano.jpeg" alt="" />
-          <h3>Americano</h3>
+          <img src="image/americano.jpeg" alt="" class="card-img-top" />
+          <h3 class="card-title">Americano</h3>
           <p>
             - Strong and black coffee. <br />
             Perfect for the bold coffee enthusiast. <br />
@@ -52,8 +52,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/americano.jpeg" alt="" />
-          <h3>Americano</h3>
+          <img src="image/americano.jpeg" alt="" class="card-img-top" />
+          <h3 class="card-title">Americano</h3>
           <p>
             - Strong and black coffee. <br />
             Perfect for the bold coffee enthusiast. <br />
@@ -62,8 +62,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/americano.jpeg" alt="" />
-          <h3>Americano</h3>
+          <img src="image/americano.jpeg" alt="" class="card-img-top" />
+          <h3 class="card-title">Americano</h3>
           <p>
             - Strong and black coffee. <br />
             Perfect for the bold coffee enthusiast. <br />
@@ -76,8 +76,8 @@
       <div class="menu">
         <h2>Delicious Snacks</h2>
         <div class="card">
-          <img src="image/croissant.JPG" alt="" />
-          <h3>Classic Croissant</h3>
+          <img src="image/croissant.JPG" alt="" class="card-img-top" />
+          <h3 class="card-title">Classic Croissant</h3>
           <p>
             - Light, flaky, and buttery. <br />
             A timeless delight. <br />
@@ -86,8 +86,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/croissant.JPG" alt="" />
-          <h3>Classic Croissant</h3>
+          <img src="image/croissant.JPG" alt="" class="card-img-top" />
+          <h3 class="card-title">Classic Croissant</h3>
           <p>
             - Light, flaky, and buttery. <br />
             A timeless delight. <br />
@@ -96,8 +96,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/croissant.JPG" alt="" />
-          <h3>Classic Croissant</h3>
+          <img src="image/croissant.JPG" alt="" class="card-img-top" />
+          <h3 class="card-title">Classic Croissant</h3>
           <p>
             - Light, flaky, and buttery. <br />
             A timeless delight. <br />
@@ -106,8 +106,8 @@
           <button>Order</button>
         </div>
         <div class="card">
-          <img src="image/croissant.JPG" alt="" />
-          <h3>Classic Croissant</h3>
+          <img src="image/croissant.JPG" alt="" class="card-img-top" />
+          <h3 class="card-title">Classic Croissant</h3>
           <p>
             - Light, flaky, and buttery. <br />
             A timeless delight. <br />
@@ -155,25 +155,36 @@
       </p>
       <form action="">
         <div>
-          <label for="">Your Name</label>
-          <input type="text" />
+          <label class="form-label" for="">Your Name :</label>
+          <input class="form-control" type="text" />
         </div>
         <div>
-          <label for="">Your Email</label>
-          <input type="email" />
+          <label class="form-label" for="">Your Email :</label>
+          <input class="form-control" type="email" />
         </div>
         <div id="message">
-          <label for="">Your Message</label>
-          <textarea rows="3" cols="10"></textarea>
+          <label class="form-label" for="">Your Message :</label>
+          <!-- row & height adjustable -->
+          <textarea
+            class="form-control"
+            rows="2"
+            cols="20"
+            name=""
+            id=""
+          ></textarea>
         </div>
-        <button type="submit">Sent Message</button>
+        <div>
+          <input class="btn-submit" type="submit" value="Send Message" />
+        </div>
       </form>
     </section>
 
     <!-- footer section  -->
     <footer>
-      <p>copyright &copy; 2024. All rights reserved.</p>
-      <a href="#header">To Top</a>
+      <p>
+        copyright &copy; 2024. Serene Sips Cafe. All rights reserved.
+        <a href="#header"> To Top &uparrow;</a>
+      </p>
     </footer>
   </body>
 </html>
