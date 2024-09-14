@@ -13,6 +13,23 @@ header {
   text-align: center;
   padding: 30px;
 }
+.bgi-one,
+.bgi-two {
+  background-image: url(image/coffee-removebg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 180px;
+  height: 120px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 100%;
+}
+.head-content {
+  width: 500px;
+  display: inline-block;
+}
 /* about us h1 */
 header h1,
 #our-menu h1,
