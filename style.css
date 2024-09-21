@@ -178,3 +178,17 @@ footer p {
   font-size: 0.8em;
   margin-top: 0;
 }
+.social-icon {
+  text-align: center;
+  color: #49281a;
+}
+.mg-10 {
+  margin-right: 10px;
+}
+.up-arrow {
+  color: #49281a;
+  font-size: 40px;
+  float: right;
+  padding: 20px;
+}
+
