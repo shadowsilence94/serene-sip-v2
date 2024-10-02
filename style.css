@@ -1,11 +1,27 @@
 /* resetting default to all */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: #f0e2c5;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    background-color: rgb(71, 124, 87);
+  }
+  nav ul li a {
+    float: none;
+    display: block;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*  */
 header {
@@ -55,6 +71,11 @@ header a {
   border-radius: 5px;
 }
 
+.bgi-two {
+  background-image: url(image/Gemini_Generated_Image_snack.jfif);
+  box-shadow: 2px 2px #49281a;
+  margin-left: 70px;
+}
 /* nav section */
 nav {
   border: none;
@@ -191,4 +212,3 @@ footer p {
   float: right;
   padding: 20px;
 }
-
